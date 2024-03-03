@@ -26,9 +26,5 @@ const Footer = ({ title }) => {
     </footer>
   )
 }
-/* 在您的CSS文件中添加以下样式 */
-footer .text-light-500 {
-    display: none;
-}
 
 export default Footer
