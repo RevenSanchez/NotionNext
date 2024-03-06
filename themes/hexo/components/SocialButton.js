@@ -29,7 +29,7 @@ const SocialButton = () => {
       {siteConfig('CONTACT_EMAIL') && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${siteConfig('CONTACT_EMAIL')}`} >
         <i className='transform hover:scale-125 duration-150 fas fa-envelope dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
-      {siteConfig('CONTACT_WECHAT') && <a target='_blank' rel='noreferrer' title={'wechat'} href={'https://u.wechat.com/MHiZmW8-eYiIWzxGT1Eti3o'} >
+      {siteConfig('CONTACT_WECHAT') && <a target='_blank' rel='noreferrer' title={'wechat'} href={'https://www.kuhup.com/article/number'} >
         <i className='transform hover:scale-125 duration-150 fab fa-weixin dark:hover:text-indigo-400 hover:text-indigo-600'/>
       </a>}
       {JSON.parse(siteConfig('ENABLE_RSS')) && <a target='_blank' rel='noreferrer' title={'RSS'} href={'/feed'} >
