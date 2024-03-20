@@ -26,7 +26,7 @@ class MyDocument extends Document {
                       return <link key={index} rel="preload" href={fontUrl} as="font" type="font/woff2" />
                     }
                   })}
-                <meta name="baidu-site-verification" content="codeva-UPfKcrCzI3" />
+                <meta name="baidu-site-verification" content="codeva-CaLL8j3NKO" />
                 </Head>
 
                 <body>
