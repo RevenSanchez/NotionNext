@@ -29,7 +29,30 @@ function scanSubdirectories(directory) {
 }
 // 扫描项目 /themes下的目录名
 const themes = scanSubdirectories(path.resolve(__dirname, 'themes'))
+
+// 原来的module.exports内容
+const originalConfig = {
+  head: [
+    {
+      type: 'meta',
+      props: {
+        charset: 'utf-8'
+      }
+    },
+    {
+      type: 'meta',
+      props: {
+        name: 'baidu-site-verification',
+        content: 'codeva-UPfKcrCzI3'
+      }
+    },
+    // 添加其他meta标签...
+  ],
+  // 其他原来的配置...
+}
+
 module.exports = withBundleAnalyzer({
+  ...originalConfig,
   images: {
     // 图片压缩
     formats: ['image/avif', 'image/webp'],
