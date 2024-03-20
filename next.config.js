@@ -43,7 +43,7 @@ const originalConfig = {
       type: 'meta',
       props: {
         name: 'baidu-site-verification',
-        content: 'codeva-UPfKcrCzI3'
+        content: 'codeva-CaLL8j3NKO'
       }
     },
     // 添加其他meta标签...
