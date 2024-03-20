@@ -4,7 +4,7 @@ var metaTag = document.createElement('meta');
 
 // 设置 meta 标签的属性
 metaTag.setAttribute('name', 'baidu-site-verification');
-metaTag.setAttribute('content', 'codeva-UPfKcrCzI3');
+metaTag.setAttribute('content', 'codeva-CaLL8j3NKO');
 
 // 将 meta 元素添加到文档的 head 部分
 document.head.appendChild(metaTag);
